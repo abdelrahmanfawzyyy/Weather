@@ -1,0 +1,1295 @@
+2024-07-01 11:43:57.002 +03:00 INFO  XOutput.Tools.DependencyEmbedder.CurrentDomain_AssemblyResolve: Loading SharpDX.DirectInput.dll from embedded resources
+2024-07-01 11:43:57.088 +03:00 INFO  XOutput.Tools.DependencyEmbedder.CurrentDomain_AssemblyResolve: Loading SharpDX.dll from embedded resources
+2024-07-01 11:43:57.170 +03:00 INFO  XOutput.UI.Windows.MainWindow..ctor: Starting XOutput in normal window
+2024-07-01 11:43:57.242 +03:00 INFO  XOutput.Tools.DependencyEmbedder.CurrentDomain_AssemblyResolve: Loading Hardcodet.Wpf.TaskbarNotification.dll from embedded resources
+2024-07-01 11:43:57.407 +03:00 INFO  XOutput.Tools.DependencyEmbedder.CurrentDomain_AssemblyResolve: Loading Newtonsoft.Json.dll from embedded resources
+2024-07-01 11:43:57.574 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: Brazilian Portuguese language is loaded.
+2024-07-01 11:43:57.574 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: English language is loaded.
+2024-07-01 11:43:57.574 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: French language is loaded.
+2024-07-01 11:43:57.575 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: German language is loaded.
+2024-07-01 11:43:57.575 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: Greek language is loaded.
+2024-07-01 11:43:57.575 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: Hungarian language is loaded.
+2024-07-01 11:43:57.575 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: Russian language is loaded.
+2024-07-01 11:43:57.575 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: Simplified Chinese language is loaded.
+2024-07-01 11:43:57.575 +03:00 INFO  XOutput.Tools.LanguageManager..ctor: Spanish language is loaded.
+2024-07-01 11:43:57.576 +03:00 INFO  XOutput.Tools.LanguageManager.set_Language: Language is set to English
+2024-07-01 11:43:57.579 +03:00 INFO  XOutput.UI.Windows.MainWindowViewModel.Initialize: Loading settings was successful.
+2024-07-01 11:43:57.581 +03:00 INFO  XOutput.Tools.DependencyEmbedder.CurrentDomain_AssemblyResolve: Loading Nefarius.ViGEm.Client.dll from embedded resources
+2024-07-01 11:43:57.796 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: Twin USB Gamepad       57004a10-0f03-11ef-8001-444553540000
+2024-07-01 11:43:57.810 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: {
+Properties: {
+  AutoCenter: Exception has been thrown by the target of an invocation.
+  AxisMode: Absolute
+  BufferSize: 128
+  ClassGuid: 745a17a0-74d3-11d0-b6fe-00a0c90f57da
+  DeadZone: Exception has been thrown by the target of an invocation.
+  ForceFeedbackGain: 10000
+  Granularity: Exception has been thrown by the target of an invocation.
+  InstanceName: Twin USB Gamepad      
+  InterfacePath: \\?\hid#vid_0810&pid_0001&col01#6&27432840&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  JoystickId: 0
+  MemoryLoad: Exception has been thrown by the target of an invocation.
+  PortDisplayName: Exception has been thrown by the target of an invocation.
+  ProductId: 1
+  ProductName: Twin USB Gamepad      
+  Range: Exception has been thrown by the target of an invocation.
+  Saturation: Exception has been thrown by the target of an invocation.
+  TypeName: Exception has been thrown by the target of an invocation.
+  UserName: Exception has been thrown by the target of an invocation.
+  VendorId: 2064
+}
+CreatedEffects: [
+]
+Capabilities: {
+  Type: Joystick
+  Subtype: 258
+  IsHumanInterfaceDevice: True
+  Flags: Attached, Emulated
+  AxeCount: 4
+  ButtonCount: 12
+  PovCount: 1
+  ForceFeedbackSamplePeriod: 0
+  ForceFeedbackMinimumTimeResolution: 0
+  FirmwareRevision: 0
+  HardwareRevision: 0
+  DriverVersion: 0
+}
+Information: {
+  Type: Joystick
+  Subtype: 258
+  IsHumanInterfaceDevice: True
+  InstanceGuid: 57004a10-0f03-11ef-8001-444553540000
+  ProductGuid: 00010810-0000-0000-0000-504944564944
+  InstanceName: Twin USB Gamepad      
+  ProductName: Twin USB Gamepad      
+  ForceFeedbackDriverGuid: 00000000-0000-0000-0000-000000000000
+  UsagePage: Generic
+  Usage: LedCompose
+}
+Tag: null
+NativePointer: 2142721038520
+IsDisposed: False
+}
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: [
+  ObjectType: a36d02e1-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 1 RawId: 0x00000102
+  Aspect: Position
+  Name: Y Axis
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 49
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02e0-c9f3-11cf-bfc7-444553540000
+  Offset: 4
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 0 RawId: 0x00000002
+  Aspect: Position
+  Name: X Axis
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 48
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02e2-c9f3-11cf-bfc7-444553540000
+  Offset: 8
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 2 RawId: 0x00000202
+  Aspect: Position
+  Name: Z Axis
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 50
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02e3-c9f3-11cf-bfc7-444553540000
+  Offset: 12
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 5 RawId: 0x00000502
+  Aspect: Position
+  Name: Z Rotation
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 53
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f2-c9f3-11cf-bfc7-444553540000
+  Offset: 16
+  ObjectId: Flags: PointOfViewController InstanceNumber: 0 RawId: 0x00000010
+  Aspect: Position
+  Name: Hat Switch
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 57
+  Dimension: 20
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 24
+  ObjectId: Flags: PushButton InstanceNumber: 0 RawId: 0x00000004
+  Aspect: 0
+  Name: Button 0
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 1
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 25
+  ObjectId: Flags: PushButton InstanceNumber: 1 RawId: 0x00000104
+  Aspect: 0
+  Name: Button 1
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 2
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 26
+  ObjectId: Flags: PushButton InstanceNumber: 2 RawId: 0x00000204
+  Aspect: 0
+  Name: Button 2
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 3
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 27
+  ObjectId: Flags: PushButton InstanceNumber: 3 RawId: 0x00000304
+  Aspect: 0
+  Name: Button 3
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 4
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 28
+  ObjectId: Flags: PushButton InstanceNumber: 4 RawId: 0x00000404
+  Aspect: 0
+  Name: Button 4
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 5
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 29
+  ObjectId: Flags: PushButton InstanceNumber: 5 RawId: 0x00000504
+  Aspect: 0
+  Name: Button 5
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 6
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 30
+  ObjectId: Flags: PushButton InstanceNumber: 6 RawId: 0x00000604
+  Aspect: 0
+  Name: Button 6
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 7
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 31
+  ObjectId: Flags: PushButton InstanceNumber: 7 RawId: 0x00000704
+  Aspect: 0
+  Name: Button 7
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 8
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 32
+  ObjectId: Flags: PushButton InstanceNumber: 8 RawId: 0x00000804
+  Aspect: 0
+  Name: Button 8
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 9
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 33
+  ObjectId: Flags: PushButton InstanceNumber: 9 RawId: 0x00000904
+  Aspect: 0
+  Name: Button 9
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 10
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 34
+  ObjectId: Flags: PushButton InstanceNumber: 10 RawId: 0x00000A04
+  Aspect: 0
+  Name: Button 10
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 11
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 35
+  ObjectId: Flags: PushButton InstanceNumber: 11 RawId: 0x00000B04
+  Aspect: 0
+  Name: Button 11
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 12
+  Dimension: 0
+  Exponent: 0
+  ReportId: 1
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0
+  Aspect: 0
+  Name: Collection 0 - Joystick
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 4
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 1 RawId: 0x000001C0
+  Aspect: 0
+  Name: Collection 1
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 0
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+]
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Y Axis Flags: AbsoluteAxis InstanceNumber: 1 RawId: 0x00000102 offset: 0 objecttype: a36d02e1-c9f3-11cf-bfc7-444553540000 49
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   X Axis Flags: AbsoluteAxis InstanceNumber: 0 RawId: 0x00000002 offset: 4 objecttype: a36d02e0-c9f3-11cf-bfc7-444553540000 48
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Z Axis Flags: AbsoluteAxis InstanceNumber: 2 RawId: 0x00000202 offset: 8 objecttype: a36d02e2-c9f3-11cf-bfc7-444553540000 50
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Z Rotation Flags: AbsoluteAxis InstanceNumber: 5 RawId: 0x00000502 offset: 12 objecttype: a36d02e3-c9f3-11cf-bfc7-444553540000 53
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Hat Switch Flags: PointOfViewController InstanceNumber: 0 RawId: 0x00000010 offset: 16 objecttype: a36d02f2-c9f3-11cf-bfc7-444553540000 57
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 0 Flags: PushButton InstanceNumber: 0 RawId: 0x00000004 offset: 24 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 1
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 1 Flags: PushButton InstanceNumber: 1 RawId: 0x00000104 offset: 25 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 2
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 2 Flags: PushButton InstanceNumber: 2 RawId: 0x00000204 offset: 26 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 3
+2024-07-01 11:43:57.811 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 3 Flags: PushButton InstanceNumber: 3 RawId: 0x00000304 offset: 27 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 4
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 4 Flags: PushButton InstanceNumber: 4 RawId: 0x00000404 offset: 28 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 5
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 5 Flags: PushButton InstanceNumber: 5 RawId: 0x00000504 offset: 29 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 6
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 6 Flags: PushButton InstanceNumber: 6 RawId: 0x00000604 offset: 30 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 7
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 7 Flags: PushButton InstanceNumber: 7 RawId: 0x00000704 offset: 31 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 8
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 8 Flags: PushButton InstanceNumber: 8 RawId: 0x00000804 offset: 32 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 9
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 9 Flags: PushButton InstanceNumber: 9 RawId: 0x00000904 offset: 33 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 10
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 10 Flags: PushButton InstanceNumber: 10 RawId: 0x00000A04 offset: 34 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 11
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 11 Flags: PushButton InstanceNumber: 11 RawId: 0x00000B04 offset: 35 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 12
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 0 - Joystick Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 4
+2024-07-01 11:43:57.812 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 1 Flags: Collection, NoData InstanceNumber: 1 RawId: 0x000001C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 0
+2024-07-01 11:43:57.830 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: Twin USB Gamepad       57004a10-0f03-11ef-8002-444553540000
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: {
+Properties: {
+  AutoCenter: Exception has been thrown by the target of an invocation.
+  AxisMode: Absolute
+  BufferSize: 128
+  ClassGuid: 745a17a0-74d3-11d0-b6fe-00a0c90f57da
+  DeadZone: Exception has been thrown by the target of an invocation.
+  ForceFeedbackGain: 10000
+  Granularity: Exception has been thrown by the target of an invocation.
+  InstanceName: Twin USB Gamepad      
+  InterfacePath: \\?\hid#vid_0810&pid_0001&col02#6&27432840&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  JoystickId: 1
+  MemoryLoad: Exception has been thrown by the target of an invocation.
+  PortDisplayName: Exception has been thrown by the target of an invocation.
+  ProductId: 1
+  ProductName: Twin USB Gamepad      
+  Range: Exception has been thrown by the target of an invocation.
+  Saturation: Exception has been thrown by the target of an invocation.
+  TypeName: Exception has been thrown by the target of an invocation.
+  UserName: Exception has been thrown by the target of an invocation.
+  VendorId: 2064
+}
+CreatedEffects: [
+]
+Capabilities: {
+  Type: Joystick
+  Subtype: 258
+  IsHumanInterfaceDevice: True
+  Flags: Attached, Emulated
+  AxeCount: 4
+  ButtonCount: 12
+  PovCount: 1
+  ForceFeedbackSamplePeriod: 0
+  ForceFeedbackMinimumTimeResolution: 0
+  FirmwareRevision: 0
+  HardwareRevision: 0
+  DriverVersion: 0
+}
+Information: {
+  Type: Joystick
+  Subtype: 258
+  IsHumanInterfaceDevice: True
+  InstanceGuid: 57004a10-0f03-11ef-8002-444553540000
+  ProductGuid: 00010810-0000-0000-0000-504944564944
+  InstanceName: Twin USB Gamepad      
+  ProductName: Twin USB Gamepad      
+  ForceFeedbackDriverGuid: 00000000-0000-0000-0000-000000000000
+  UsagePage: Generic
+  Usage: LedCompose
+}
+Tag: null
+NativePointer: 2142721042552
+IsDisposed: False
+}
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: [
+  ObjectType: a36d02e1-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 1 RawId: 0x00000102
+  Aspect: Position
+  Name: Y Axis
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 49
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02e0-c9f3-11cf-bfc7-444553540000
+  Offset: 4
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 0 RawId: 0x00000002
+  Aspect: Position
+  Name: X Axis
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 48
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02e2-c9f3-11cf-bfc7-444553540000
+  Offset: 8
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 2 RawId: 0x00000202
+  Aspect: Position
+  Name: Z Axis
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 50
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02e3-c9f3-11cf-bfc7-444553540000
+  Offset: 12
+  ObjectId: Flags: AbsoluteAxis InstanceNumber: 5 RawId: 0x00000502
+  Aspect: Position
+  Name: Z Rotation
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 53
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f2-c9f3-11cf-bfc7-444553540000
+  Offset: 16
+  ObjectId: Flags: PointOfViewController InstanceNumber: 0 RawId: 0x00000010
+  Aspect: Position
+  Name: Hat Switch
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 57
+  Dimension: 20
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 24
+  ObjectId: Flags: PushButton InstanceNumber: 0 RawId: 0x00000004
+  Aspect: 0
+  Name: Button 0
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 1
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 25
+  ObjectId: Flags: PushButton InstanceNumber: 1 RawId: 0x00000104
+  Aspect: 0
+  Name: Button 1
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 2
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 26
+  ObjectId: Flags: PushButton InstanceNumber: 2 RawId: 0x00000204
+  Aspect: 0
+  Name: Button 2
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 3
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 27
+  ObjectId: Flags: PushButton InstanceNumber: 3 RawId: 0x00000304
+  Aspect: 0
+  Name: Button 3
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 4
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 28
+  ObjectId: Flags: PushButton InstanceNumber: 4 RawId: 0x00000404
+  Aspect: 0
+  Name: Button 4
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 5
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 29
+  ObjectId: Flags: PushButton InstanceNumber: 5 RawId: 0x00000504
+  Aspect: 0
+  Name: Button 5
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 6
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 30
+  ObjectId: Flags: PushButton InstanceNumber: 6 RawId: 0x00000604
+  Aspect: 0
+  Name: Button 6
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 7
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 31
+  ObjectId: Flags: PushButton InstanceNumber: 7 RawId: 0x00000704
+  Aspect: 0
+  Name: Button 7
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 8
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 32
+  ObjectId: Flags: PushButton InstanceNumber: 8 RawId: 0x00000804
+  Aspect: 0
+  Name: Button 8
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 9
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 33
+  ObjectId: Flags: PushButton InstanceNumber: 9 RawId: 0x00000904
+  Aspect: 0
+  Name: Button 9
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 10
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 34
+  ObjectId: Flags: PushButton InstanceNumber: 10 RawId: 0x00000A04
+  Aspect: 0
+  Name: Button 10
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 11
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 35
+  ObjectId: Flags: PushButton InstanceNumber: 11 RawId: 0x00000B04
+  Aspect: 0
+  Name: Button 11
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 9
+  Usage: 12
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0
+  Aspect: 0
+  Name: Collection 0 - Joystick
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 4
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 1 RawId: 0x000001C0
+  Aspect: 0
+  Name: Collection 1
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 0
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+]
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Y Axis Flags: AbsoluteAxis InstanceNumber: 1 RawId: 0x00000102 offset: 0 objecttype: a36d02e1-c9f3-11cf-bfc7-444553540000 49
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   X Axis Flags: AbsoluteAxis InstanceNumber: 0 RawId: 0x00000002 offset: 4 objecttype: a36d02e0-c9f3-11cf-bfc7-444553540000 48
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Z Axis Flags: AbsoluteAxis InstanceNumber: 2 RawId: 0x00000202 offset: 8 objecttype: a36d02e2-c9f3-11cf-bfc7-444553540000 50
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Z Rotation Flags: AbsoluteAxis InstanceNumber: 5 RawId: 0x00000502 offset: 12 objecttype: a36d02e3-c9f3-11cf-bfc7-444553540000 53
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Hat Switch Flags: PointOfViewController InstanceNumber: 0 RawId: 0x00000010 offset: 16 objecttype: a36d02f2-c9f3-11cf-bfc7-444553540000 57
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 0 Flags: PushButton InstanceNumber: 0 RawId: 0x00000004 offset: 24 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 1
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 1 Flags: PushButton InstanceNumber: 1 RawId: 0x00000104 offset: 25 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 2
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 2 Flags: PushButton InstanceNumber: 2 RawId: 0x00000204 offset: 26 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 3
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 3 Flags: PushButton InstanceNumber: 3 RawId: 0x00000304 offset: 27 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 4
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 4 Flags: PushButton InstanceNumber: 4 RawId: 0x00000404 offset: 28 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 5
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 5 Flags: PushButton InstanceNumber: 5 RawId: 0x00000504 offset: 29 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 6
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 6 Flags: PushButton InstanceNumber: 6 RawId: 0x00000604 offset: 30 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 7
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 7 Flags: PushButton InstanceNumber: 7 RawId: 0x00000704 offset: 31 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 8
+2024-07-01 11:43:57.831 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 8 Flags: PushButton InstanceNumber: 8 RawId: 0x00000804 offset: 32 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 9
+2024-07-01 11:43:57.832 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 9 Flags: PushButton InstanceNumber: 9 RawId: 0x00000904 offset: 33 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 10
+2024-07-01 11:43:57.832 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 10 Flags: PushButton InstanceNumber: 10 RawId: 0x00000A04 offset: 34 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 11
+2024-07-01 11:43:57.832 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 11 Flags: PushButton InstanceNumber: 11 RawId: 0x00000B04 offset: 35 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 12
+2024-07-01 11:43:57.832 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 0 - Joystick Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 4
+2024-07-01 11:43:57.832 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 1 Flags: Collection, NoData InstanceNumber: 1 RawId: 0x000001C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 0
+2024-07-01 11:43:57.850 +03:00 INFO  XOutput.UI.Windows.MainWindowViewModel.Initialize: Keyboard controller is connected
+2024-07-01 11:43:57.853 +03:00 INFO  XOutput.UI.Windows.MainWindow.Initialize: The application has started.
+2024-07-01 11:43:58.194 +03:00 INFO  XOutput.UI.Windows.MainWindowViewModel.VersionCompare: Version is up-to-date
+2024-07-01 11:44:14.305 +03:00 INFO  XOutput.Devices.GameController.CreateXOutput: ViGEm devices are used.
+2024-07-01 11:44:30.353 +03:00 INFO  XOutput.UI.Windows.MainWindowViewModel.RemoveController: Controller is disconnected.
+2024-07-01 11:45:37.687 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: Intel(R) HID Event Filter 7883cce0-0308-11ef-8002-444553540000
+2024-07-01 11:45:37.688 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: {
+Properties: {
+  AutoCenter: Exception has been thrown by the target of an invocation.
+  AxisMode: Absolute
+  BufferSize: 128
+  ClassGuid: 745a17a0-74d3-11d0-b6fe-00a0c90f57da
+  DeadZone: Exception has been thrown by the target of an invocation.
+  ForceFeedbackGain: 10000
+  Granularity: Exception has been thrown by the target of an invocation.
+  InstanceName: Intel(R) HID Event Filter
+  InterfacePath: \\?\hid#intc816#3&10839a5c&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  JoystickId: Exception has been thrown by the target of an invocation.
+  MemoryLoad: Exception has been thrown by the target of an invocation.
+  PortDisplayName: Exception has been thrown by the target of an invocation.
+  ProductId: 2590
+  ProductName: Intel(R) HID Event Filter
+  Range: Exception has been thrown by the target of an invocation.
+  Saturation: Exception has been thrown by the target of an invocation.
+  TypeName: Exception has been thrown by the target of an invocation.
+  UserName: Exception has been thrown by the target of an invocation.
+  VendorId: 32903
+}
+CreatedEffects: [
+]
+Capabilities: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  Flags: Attached, Emulated
+  AxeCount: 0
+  ButtonCount: 5
+  PovCount: 0
+  ForceFeedbackSamplePeriod: 0
+  ForceFeedbackMinimumTimeResolution: 0
+  FirmwareRevision: 0
+  HardwareRevision: 0
+  DriverVersion: 0
+}
+Information: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  InstanceGuid: 7883cce0-0308-11ef-8002-444553540000
+  ProductGuid: 0a1e8087-0000-0000-0000-504944564944
+  InstanceName: Intel(R) HID Event Filter
+  ProductName: Intel(R) HID Event Filter
+  ForceFeedbackDriverGuid: 00000000-0000-0000-0000-000000000000
+  UsagePage: Generic
+  Usage: DigitizerFreeSpaceWand
+}
+Tag: null
+NativePointer: 2142831165768
+IsDisposed: False
+}
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: [
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: PushButton InstanceNumber: 0 RawId: 0x00000004
+  Aspect: 0
+  Name: System Power
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 1
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 129
+  Dimension: 0
+  Exponent: 0
+  ReportId: 28
+  ,
+  ObjectType: 55728220-d33c-11cf-bfc7-444553540000
+  Offset: 1
+  ObjectId: Flags: PushButton InstanceNumber: 1 RawId: 0x00000104
+  Aspect: 0
+  Name: Left Win
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 2
+  DesignatorIndex: 0
+  UsagePage: 7
+  Usage: 227
+  Dimension: 0
+  Exponent: 0
+  ReportId: 28
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 2
+  ObjectId: Flags: PushButton InstanceNumber: 2 RawId: 0x00000204
+  Aspect: 0
+  Name: Volume Increment
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 3
+  DesignatorIndex: 0
+  UsagePage: 12
+  Usage: 233
+  Dimension: 0
+  Exponent: 0
+  ReportId: 28
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 3
+  ObjectId: Flags: PushButton InstanceNumber: 3 RawId: 0x00000304
+  Aspect: 0
+  Name: Volume Decrement
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 4
+  DesignatorIndex: 0
+  UsagePage: 12
+  Usage: 234
+  Dimension: 0
+  Exponent: 0
+  ReportId: 28
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 4
+  ObjectId: Flags: PushButton InstanceNumber: 4 RawId: 0x00000404
+  Aspect: 0
+  Name: Button 4
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 5
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 202
+  Dimension: 0
+  Exponent: 0
+  ReportId: 28
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0
+  Aspect: 0
+  Name: Collection 0
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 13
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 1 RawId: 0x000001C0
+  Aspect: 0
+  Name: Collection 1
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 13
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 2 RawId: 0x000002C0
+  Aspect: 0
+  Name: Collection 2
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 13
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 3 RawId: 0x000003C0
+  Aspect: 0
+  Name: Collection 3
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 13
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 4 RawId: 0x000004C0
+  Aspect: 0
+  Name: Collection 4
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 13
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 5 RawId: 0x000005C0
+  Aspect: 0
+  Name: Collection 5
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 13
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+]
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   System Power Flags: PushButton InstanceNumber: 0 RawId: 0x00000004 offset: 0 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 129
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Left Win Flags: PushButton InstanceNumber: 1 RawId: 0x00000104 offset: 1 objecttype: 55728220-d33c-11cf-bfc7-444553540000 227
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Volume Increment Flags: PushButton InstanceNumber: 2 RawId: 0x00000204 offset: 2 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 233
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Volume Decrement Flags: PushButton InstanceNumber: 3 RawId: 0x00000304 offset: 3 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 234
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 4 Flags: PushButton InstanceNumber: 4 RawId: 0x00000404 offset: 4 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 202
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 0 Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 13
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 1 Flags: Collection, NoData InstanceNumber: 1 RawId: 0x000001C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 13
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 2 Flags: Collection, NoData InstanceNumber: 2 RawId: 0x000002C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 13
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 3 Flags: Collection, NoData InstanceNumber: 3 RawId: 0x000003C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 13
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 4 Flags: Collection, NoData InstanceNumber: 4 RawId: 0x000004C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 13
+2024-07-01 11:45:37.689 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 5 Flags: Collection, NoData InstanceNumber: 5 RawId: 0x000005C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 13
+2024-07-01 11:45:37.692 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: HIDI2C Device 7883cce0-0308-11ef-8009-444553540000
+2024-07-01 11:45:37.693 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: {
+Properties: {
+  AutoCenter: Exception has been thrown by the target of an invocation.
+  AxisMode: Absolute
+  BufferSize: 128
+  ClassGuid: 745a17a0-74d3-11d0-b6fe-00a0c90f57da
+  DeadZone: Exception has been thrown by the target of an invocation.
+  ForceFeedbackGain: 10000
+  Granularity: Exception has been thrown by the target of an invocation.
+  InstanceName: HIDI2C Device
+  InterfacePath: \\?\hid#ite5570#3&23012347&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  JoystickId: Exception has been thrown by the target of an invocation.
+  MemoryLoad: Exception has been thrown by the target of an invocation.
+  PortDisplayName: Exception has been thrown by the target of an invocation.
+  ProductId: 32849
+  ProductName: HIDI2C Device
+  Range: Exception has been thrown by the target of an invocation.
+  Saturation: Exception has been thrown by the target of an invocation.
+  TypeName: Exception has been thrown by the target of an invocation.
+  UserName: Exception has been thrown by the target of an invocation.
+  VendorId: 1165
+}
+CreatedEffects: [
+]
+Capabilities: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  Flags: Attached, Emulated
+  AxeCount: 0
+  ButtonCount: 1
+  PovCount: 0
+  ForceFeedbackSamplePeriod: 0
+  ForceFeedbackMinimumTimeResolution: 0
+  FirmwareRevision: 0
+  HardwareRevision: 0
+  DriverVersion: 0
+}
+Information: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  InstanceGuid: 7883cce0-0308-11ef-8009-444553540000
+  ProductGuid: 8051048d-0000-0000-0000-504944564944
+  InstanceName: HIDI2C Device
+  ProductName: HIDI2C Device
+  ForceFeedbackDriverGuid: 00000000-0000-0000-0000-000000000000
+  UsagePage: Generic
+  Usage: SimulationBicycleSimulationDevice
+}
+Tag: null
+NativePointer: 2142831166664
+IsDisposed: False
+}
+2024-07-01 11:45:37.693 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: [
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: PushButton InstanceNumber: 0 RawId: 0x00000004
+  Aspect: 0
+  Name: Button 0
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 198
+  Dimension: 0
+  Exponent: 0
+  ReportId: 4
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 1
+  ObjectId: Flags: NoData, Output InstanceNumber: 1 RawId: 0x10000180
+  Aspect: -2147450880
+  Name: Unknown 1
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 199
+  Dimension: 0
+  Exponent: 0
+  ReportId: 4
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0
+  Aspect: 0
+  Name: Collection 0
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 12
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+]
+2024-07-01 11:45:37.693 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 0 Flags: PushButton InstanceNumber: 0 RawId: 0x00000004 offset: 0 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 198
+2024-07-01 11:45:37.693 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Unknown 1 Flags: NoData, Output InstanceNumber: 1 RawId: 0x10000180 offset: 1 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 199
+2024-07-01 11:45:37.693 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 0 Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 12
+2024-07-01 11:45:37.697 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: Converted Portable Device Control device 7883cce0-0308-11ef-800b-444553540000
+2024-07-01 11:45:37.699 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: {
+Properties: {
+  AutoCenter: Exception has been thrown by the target of an invocation.
+  AxisMode: Absolute
+  BufferSize: 128
+  ClassGuid: 745a17a0-74d3-11d0-b6fe-00a0c90f57da
+  DeadZone: Exception has been thrown by the target of an invocation.
+  ForceFeedbackGain: 10000
+  Granularity: Exception has been thrown by the target of an invocation.
+  InstanceName: Converted Portable Device Control device
+  InterfacePath: \\?\hid#converteddevice&col02#5&353ec129&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  JoystickId: Exception has been thrown by the target of an invocation.
+  MemoryLoad: Exception has been thrown by the target of an invocation.
+  PortDisplayName: Exception has been thrown by the target of an invocation.
+  ProductId: 0
+  ProductName: Converted Portable Device Control device
+  Range: Exception has been thrown by the target of an invocation.
+  Saturation: Exception has been thrown by the target of an invocation.
+  TypeName: Exception has been thrown by the target of an invocation.
+  UserName: Exception has been thrown by the target of an invocation.
+  VendorId: 1118
+}
+CreatedEffects: [
+]
+Capabilities: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  Flags: Attached, Emulated
+  AxeCount: 0
+  ButtonCount: 3
+  PovCount: 0
+  ForceFeedbackSamplePeriod: 0
+  ForceFeedbackMinimumTimeResolution: 0
+  FirmwareRevision: 0
+  HardwareRevision: 0
+  DriverVersion: 0
+}
+Information: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  InstanceGuid: 7883cce0-0308-11ef-800b-444553540000
+  ProductGuid: 0000045e-0000-0000-0000-504944564944
+  InstanceName: Converted Portable Device Control device
+  ProductName: Converted Portable Device Control device
+  ForceFeedbackDriverGuid: 00000000-0000-0000-0000-000000000000
+  UsagePage: Consumer
+  Usage: AlphanumericAlphanumericDisplay
+}
+Tag: null
+NativePointer: 2142831164424
+IsDisposed: False
+}
+2024-07-01 11:45:37.699 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: [
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: PushButton InstanceNumber: 0 RawId: 0x00000004
+  Aspect: 0
+  Name: Button 0
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 12
+  Usage: 545
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 1
+  ObjectId: Flags: PushButton InstanceNumber: 1 RawId: 0x00000104
+  Aspect: 0
+  Name: Volume Decrement
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 12
+  Usage: 234
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 2
+  ObjectId: Flags: PushButton InstanceNumber: 2 RawId: 0x00000204
+  Aspect: 0
+  Name: Volume Increment
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 12
+  Usage: 233
+  Dimension: 0
+  Exponent: 0
+  ReportId: 2
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0
+  Aspect: 0
+  Name: Collection 0 - Consumer Control
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 12
+  Usage: 1
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+]
+2024-07-01 11:45:37.699 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Button 0 Flags: PushButton InstanceNumber: 0 RawId: 0x00000004 offset: 0 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 545
+2024-07-01 11:45:37.699 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Volume Decrement Flags: PushButton InstanceNumber: 1 RawId: 0x00000104 offset: 1 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 234
+2024-07-01 11:45:37.699 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Volume Increment Flags: PushButton InstanceNumber: 2 RawId: 0x00000204 offset: 2 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 233
+2024-07-01 11:45:37.699 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 0 - Consumer Control Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 1
+2024-07-01 11:45:37.701 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: Converted Portable Device Control device 7883cce0-0308-11ef-800d-444553540000
+2024-07-01 11:45:37.703 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: {
+Properties: {
+  AutoCenter: Exception has been thrown by the target of an invocation.
+  AxisMode: Absolute
+  BufferSize: 128
+  ClassGuid: 745a17a0-74d3-11d0-b6fe-00a0c90f57da
+  DeadZone: Exception has been thrown by the target of an invocation.
+  ForceFeedbackGain: 10000
+  Granularity: Exception has been thrown by the target of an invocation.
+  InstanceName: Converted Portable Device Control device
+  InterfacePath: \\?\hid#converteddevice&col03#5&353ec129&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  JoystickId: Exception has been thrown by the target of an invocation.
+  MemoryLoad: Exception has been thrown by the target of an invocation.
+  PortDisplayName: Exception has been thrown by the target of an invocation.
+  ProductId: 0
+  ProductName: Converted Portable Device Control device
+  Range: Exception has been thrown by the target of an invocation.
+  Saturation: Exception has been thrown by the target of an invocation.
+  TypeName: Exception has been thrown by the target of an invocation.
+  UserName: Exception has been thrown by the target of an invocation.
+  VendorId: 1118
+}
+CreatedEffects: [
+]
+Capabilities: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  Flags: Attached, Emulated
+  AxeCount: 0
+  ButtonCount: 1
+  PovCount: 0
+  ForceFeedbackSamplePeriod: 0
+  ForceFeedbackMinimumTimeResolution: 0
+  FirmwareRevision: 0
+  HardwareRevision: 0
+  DriverVersion: 0
+}
+Information: {
+  Type: Device
+  Subtype: 256
+  IsHumanInterfaceDevice: True
+  InstanceGuid: 7883cce0-0308-11ef-800d-444553540000
+  ProductGuid: 0000045e-0000-0000-0000-504944564944
+  InstanceName: Converted Portable Device Control device
+  ProductName: Converted Portable Device Control device
+  ForceFeedbackDriverGuid: 00000000-0000-0000-0000-000000000000
+  UsagePage: Generic
+  Usage: GenericSystemCtl
+}
+Tag: null
+NativePointer: 2142831168456
+IsDisposed: False
+}
+2024-07-01 11:45:37.703 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor: [
+  ObjectType: a36d02f0-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: PushButton InstanceNumber: 0 RawId: 0x00000004
+  Aspect: 0
+  Name: System Power
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 129
+  Dimension: 0
+  Exponent: 0
+  ReportId: 3
+  ,
+  ObjectType: a36d02f3-c9f3-11cf-bfc7-444553540000
+  Offset: 0
+  ObjectId: Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0
+  Aspect: 0
+  Name: Collection 0 - System Controls
+  MaximumForceFeedback: 0
+  ForceFeedbackResolution: 0
+  CollectionNumber: 0
+  DesignatorIndex: 0
+  UsagePage: 1
+  Usage: 128
+  Dimension: 0
+  Exponent: 0
+  ReportId: 0
+  ,
+]
+2024-07-01 11:45:37.703 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   System Power Flags: PushButton InstanceNumber: 0 RawId: 0x00000004 offset: 0 objecttype: a36d02f0-c9f3-11cf-bfc7-444553540000 129
+2024-07-01 11:45:37.703 +03:00 INFO  XOutput.Devices.Input.DirectInput.DirectDevice..ctor:   Collection 0 - System Controls Flags: Collection, NoData InstanceNumber: 0 RawId: 0x000000C0 offset: 0 objecttype: a36d02f3-c9f3-11cf-bfc7-444553540000 128
+2024-07-01 11:45:43.425 +03:00 INFO  XOutput.Devices.GameController.CreateXOutput: ViGEm devices are used.
+2024-07-01 11:45:51.857 +03:00 INFO  XOutput.UI.Windows.MainWindowViewModel.RemoveController: Controller is disconnected.
+2024-07-01 11:45:58.742 +03:00 INFO  XOutput.UI.Windows.MainWindow.WindowClosed: The application will exit.
